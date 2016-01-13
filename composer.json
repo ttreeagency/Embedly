@@ -2,6 +2,7 @@
     "name": "ttree/embedly",
     "type": "typo3-flow-package",
     "description": "Add description here",
+    "license": "MIT",
     "require": {
         "typo3/flow": "*",
         "embedly/embedly-php": "~0.5.0"
