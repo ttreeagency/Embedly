@@ -19,18 +19,19 @@ use TYPO3\Flow\Annotations as Flow;
 class Embedly extends \Embedly\Embedly
 {
     /**
-     * @Flow\InjectConfiguration(package="Ttree.Embedly")
+     * @Flow\InjectConfiguration
      * @var array
      */
     protected $settings;
 
     /**
-     * @param array $args
+     * Initialize Object
      */
-    public function __construct(array $args)
+    public function initializeObject()
     {
-        $this->key = $this->settings['apiKey'];
-        parent::__construct($args);
+        if ($this->key === null) {
+            $this->key = $this->settings['apiKey'];
+        }
     }
 
 }
