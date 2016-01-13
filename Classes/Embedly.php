@@ -1,5 +1,5 @@
 <?php
-namespace Ttree\CloudButler\EmbedlyAdapter\Action;
+namespace Ttree\Embedly;
 
 /*
  * This file is part of the Ttree.Embedly package.
