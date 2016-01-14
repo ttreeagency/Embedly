@@ -34,4 +34,11 @@ class Embedly extends \Embedly\Embedly
         }
     }
 
+    /**
+     * @return string
+     */
+    public function getKey()
+    {
+        return $this->key;
+    }
 }

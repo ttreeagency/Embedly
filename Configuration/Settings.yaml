@@ -1,4 +1,5 @@
 Ttree:
   Embedly:
+    enableResponseCache: TRUE
     logApiRequest: TRUE
     apiKey: 'your-own-api-key'

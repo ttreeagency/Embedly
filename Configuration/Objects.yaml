@@ -1,0 +1,9 @@
+Ttree\Embedly\Aspect\ResponseCacheAspect:
+  properties:
+    responseCache:
+      object:
+        factoryObjectName: TYPO3\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: Ttree_Embedly_Response
