@@ -1,3 +1,4 @@
 Ttree:
   Embedly:
+    logApiRequest: TRUE
     apiKey: 'your-own-api-key'
