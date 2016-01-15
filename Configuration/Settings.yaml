@@ -9,3 +9,12 @@ TYPO3:
     defaultContext:
       Embedly: 'Ttree\Embedly\Eel\Helper\EmbedlyHelper'
 
+  Neos:
+    typoScript:
+      autoInclude:
+        'Ttree.Embedly': TRUE
+
+    userInterface:
+      translation:
+        autoInclude:
+          'Ttree.Embedly': ['NodeTypes/*']

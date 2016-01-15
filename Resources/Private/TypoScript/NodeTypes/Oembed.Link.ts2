@@ -1,0 +1,4 @@
+prototype(Ttree.Embedly:Oembed.Link) < prototype(Ttree.Embedly:Oembed.Base) {
+    templatePath = 'resource://Ttree.Embedly/Private/Templates/TypoScriptObjects/Oembed.Link.html'
+    attributes.class = 'ttree-embedly__link'
+}

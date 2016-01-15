@@ -1,0 +1,18 @@
+prototype(Ttree.Embedly:Oembed) {
+    @override.response = ${Embedly.oembed(q(node).property('url'))}
+
+    content = TYPO3.TypoScript:Case {
+        link {
+            condition = ${response.type == 'link'}
+            type = 'Ttree.Embedly:Oembed.Link'
+        }
+        video {
+            condition = ${response.type == 'video'}
+            type = 'Ttree.Embedly:Oembed.Video'
+        }
+        photo {
+            condition = ${response.type == 'photo'}
+            type = 'Ttree.Embedly:Oembed.Photo'
+        }
+    }
+}

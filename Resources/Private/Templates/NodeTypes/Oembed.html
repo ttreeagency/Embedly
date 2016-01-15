@@ -1,0 +1,11 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<div{attributes -> f:format.raw()}>
+<f:if condition="{url}">
+    <f:then>
+        {content -> f:format.raw()}
+    </f:then>
+    <f:else>
+        <div>Missing URI, check the Inspector ...</div>
+    </f:else>
+</f:if>
+</div>

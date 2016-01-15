@@ -1,0 +1,4 @@
+prototype(Ttree.Embedly:Oembed.Video) < prototype(Ttree.Embedly:Oembed.Base) {
+    templatePath = 'resource://Ttree.Embedly/Private/Templates/TypoScriptObjects/Oembed.Video.html'
+    attributes.class = 'ttree-embedly__video'
+}

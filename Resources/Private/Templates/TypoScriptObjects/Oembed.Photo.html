@@ -1,0 +1,6 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<div{attributes -> f:format.raw()}>
+    <h2>{response.title}</h2>
+    <img src="{response.url}" alt="{response.title}">
+    <p>{response.description} <a href="{response.url}">Lire la suite ...</a></p>
+</div>

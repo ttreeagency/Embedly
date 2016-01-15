@@ -1,0 +1,4 @@
+prototype(Ttree.Embedly:Oembed.Photo) < prototype(Ttree.Embedly:Oembed.Base) {
+    templatePath = 'resource://Ttree.Embedly/Private/Templates/TypoScriptObjects/Oembed.Photo.html'
+    attributes.class = 'ttree-embedly__photo'
+}

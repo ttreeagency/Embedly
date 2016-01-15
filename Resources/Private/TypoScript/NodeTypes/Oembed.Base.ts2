@@ -1,0 +1,8 @@
+prototype(Ttree.Embedly:Oembed.Base) < prototype(TYPO3.TypoScript:Template) {
+    attributes = TYPO3.TypoScript:Attributes {
+        class = 'ttree-embedly__base'
+    }
+
+    response = ${response}
+
+}
