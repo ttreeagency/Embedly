@@ -3,3 +3,9 @@ Ttree:
     enableResponseCache: TRUE
     logApiRequest: TRUE
     apiKey: 'your-own-api-key'
+
+TYPO3:
+  TypoScript:
+    defaultContext:
+      Embedly: 'Ttree\Embedly\Eel\Helper\EmbedlyHelper'
+
